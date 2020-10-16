@@ -1,0 +1,93 @@
+ .sub a {
+		position: fixed;
+		top: 0;
+		display: inline-block;
+		margin: 16px;
+		padding: 4px 8px;
+		font-size: 8pt;
+		background: lighten(rgb(69, 112, 180), 40%);
+		color: rgb(69, 112, 180);
+		&:hover {
+			background: rgb(69, 112, 180);
+			color: white;
+		}
+	}
+ .center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+ .sub form {
+	width: max-content;
+	height: max-content;
+	font-size: 16pt;
+	
+	border: 2px solid black;
+	border-radius: 50px;
+	overflow: hidden;
+}
+
+ .sub input {
+	font-size: inherit;
+	 width: 400px;
+	
+	padding: 16px;
+	margin-right: -1px;
+	transition: padding 0.2s;
+	
+	border: 0;
+	
+	 ::selection {
+		background: lighten(rgb(252, 192, 74), 10%);
+	}
+}
+
+ .sub button {
+	font-size: inherit;
+	float: right;
+	
+	padding: 16px;
+	margin-left: -1px;
+	
+	background: #429FFD;
+	transition: padding 0.2s;
+	border: 0; 
+	&:hover {
+		cursor: pointer;
+		background: #246de0;
+	}
+ 
+} 
+.sub h3{ 
+  font-size: 28px;
+  color: white;
+  font-weight: bold
+}
+.sub h5{
+  font-size: 22px;
+  color: white;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 520px) {
+	.sub input {
+         width: 285px;
+       }
+      button{
+         padding: 16px 5px;
+      }    
+}
+@media screen and (max-width: 370px) {
+      input {
+         width: 195px;
+       }
+       .sub h3{ 
+          font-size: 20px; 
+        }
+        .sub h5, form{
+          font-size: 18px
+        }
+        
+}

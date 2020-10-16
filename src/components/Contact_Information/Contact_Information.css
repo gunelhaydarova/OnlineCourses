@@ -1,0 +1,29 @@
+.contact_info .card{
+  min-height: 110px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 2px #ccc;
+  width: 23%;
+  padding : 30px 20px ;
+  margin: 1%;
+  background-color: #eee;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+  color: rgba(36, 35, 35, 0.849)
+} 
+.contact_info{
+  display:  flex
+}
+.contact_info .fa{
+    color: #429FFD; 
+    margin-right: 10px;
+    font-size: 1.2rem;
+    padding: 0
+}
+.contact_header{
+  margin: 30px 1% 30px;
+  font-size: 1.9rem;
+  font-weight: bold 
+}
+.contact-form{
+    margin: 1%;
+}

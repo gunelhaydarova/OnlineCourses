@@ -1,0 +1,133 @@
+
+.split {
+  height: 600px;
+  width: 50%; 
+  z-index: 1;
+  top: 0;
+  float: left;
+  margin-top: 40px;
+} 
+.figure-img  {
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      position: relative; 
+}
+.event h4{
+  font-size: 16px;
+  color: lightslategrey;
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+}
+.event h1{
+  margin-top: 60px;
+}
+
+.event-entry {
+  padding: 1.3em;
+  background: #f2f3f7;
+  box-shadow: 0 2px 2px #ccc;
+  width: 100%;
+  height: 193px; 
+  margin-bottom: 10px;
+  margin-left: 10px
+   }
+  .event-entry .desc {
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 20px;
+    padding-left: 75px;
+    position: relative; 
+  }
+  .event-entry .desc .startenddate {
+    font-size: 16px;
+    margin-bottom: 10px; 
+  }
+  .event-entry .desc .startenddate span:first-child {
+    font-weight: 700;
+    color: #429FFD;
+  }
+  .event-entry .desc .startenddate span:last-child {
+    color: #000; 
+  }
+  .event-entry .desc .meta {
+    line-height: 1.3;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    left: 0; 
+  }
+ .event-entry .desc .meta span {
+    display: block;
+    font-weight: 700;
+    color: #429FFD; 
+  }
+  .event-entry .desc .meta .day {
+    font-size: 36px; 
+  }
+  .event-entry .desc .meta .month {
+    font-size: 20px;
+    font-weight: 600; 
+  }
+  .event-entry .desc .organizer span:last-child {
+      color: #000;
+  }
+  .event-entry .location {
+    position: relative;
+    padding-left: 45px; 
+  }
+  .event-entry .location .icon {
+    position: absolute;
+    top: 0;
+    left: 0; 
+  }
+ .event-entry .location .icon i {
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .event-entry h2 {
+    font-size: 26px;
+    line-height: 1.4; 
+  }
+  .event-entry h2 a {
+    color: #000; text-decoration: none 
+  }
+  .event-entry p{
+    color: #717979;
+  }
+@media screen and (max-width: 1045px) {
+  .split{
+    width: 100%;
+  }
+  .event-entry{
+    height: auto;
+    margin-left: 0;
+    word-wrap: break-word; 
+  }
+}
+@media screen and (max-width: 450px) {
+  .split{
+    width: 100%;
+  }
+  .event-entry h2 a {
+      font-size: 16px;
+      font-weight: bold;
+    }  
+   
+}
+Link{
+  text-decoration: none;
+}
+.event_items .event-entry{
+    width: 40%;
+    height: auto; 
+}
+.event_items {
+  display: flex;
+  margin: 50px auto;
+  width: 90%;
+  word-wrap: break-word
+   
+}

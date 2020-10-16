@@ -1,0 +1,196 @@
+
+.projectFactsWrap{
+  display: flex;
+  margin-top: 30px;
+  flex-direction: row;
+  float: left;
+  width: 100%;
+}
+
+ 
+.counter-entry {
+  padding: 0;
+  position: relative; 
+  
+  } 
+
+.counters {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  
+  }
+  .counters .overlay {
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7); 
+    
+  }
+  .counters .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+    width: 100px;
+    z-index: 0; 
+  }
+    .counters .icon i {
+      font-size: 60px;
+      color: rgba(255, 255, 255, 0.9);
+      z-index: 1; 
+  }
+  .counters .desc {
+    padding-left: 110px;
+    padding-right:20px; 
+  }
+  .counters .counter {
+    font-size: 40px;
+    display: block;
+    color: #429FFD;
+    font-family: "Open Sans", Arial, sans-serif;
+    width: 100%;
+    font-weight: 700;
+    margin-bottom: 0; 
+  }
+  .counters .counter-label {
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+    display: block;
+    font-weight: 400; 
+  }
+  @media screen and (max-width: 900px) {
+  .counter-entry {
+      margin-bottom: 20px; 
+   } 
+  .projectFactsWrap{
+      flex-direction: row;
+      flex-wrap: wrap; 
+      width: 500px
+   } 
+  }
+  @media screen and (max-width: 680px) {
+    .projectFactsWrap{
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: 'red';
+        width: 500px
+    }
+    .counters .counter {
+      font-size: 30px;
+    }
+    .counters .icon i{
+        font-size: 40px;
+    }
+    .counters .desc {
+      padding-left: 80px;
+      padding-right: 30px;
+      
+    } 
+      
+  }
+  @media screen and (max-width: 460px) {
+    .projectFactsWrap{
+      display: table;
+      width: 270px
+    }
+    .counter-entry {
+      margin: 0; 
+    } 
+    .projectFactsWrap {
+      margin: 0; 
+    } 
+    
+  }
+ 
+  .colorlib-heading {
+    margin-bottom: 3em;
+  }
+  .colorlib-heading h2 {
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.9);
+      margin-bottom: 10px; 
+    }
+   @media screen and (max-width: 768px) {
+      .colorlib-heading h2 {
+          font-size: 30px; 
+      } 
+    }
+    .owl-theme .owl-controls {
+      z-index: 1;
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      right: 0; 
+   }
+   .owl-theme .owl-dots .owl-dot span {
+      background: rgba(255, 255, 255, 0.5); 
+    }
+    .owl-theme .owl-dots .owl-dot.active span,
+    .owl-theme .owl-dots .owl-dot:hover span {
+       background: #429FFD; 
+    }
+    .testimony-slide {
+      display: block;
+      position: relative;
+      height: auto;
+      width: 100%;
+      float: left;
+    }
+    .testimony-slide span {
+      font-size: 24px;
+      font-weight: 700;
+      display: block;
+      color: #fff;
+      margin-bottom: 20px;
+      text-transform: uppercase; }
+      .testimony-slide .figure-img {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+    }
+    .testimony-slide blockquote {
+      border: none;
+      margin: 0 auto;
+      margin-bottom: 40px;
+      width: 100%;
+      position: relative;
+      padding: 0;
+      color: #fff; 
+    }
+    .testimony-slide blockquote p {
+      font-size: 20px;
+      font-weight: 400;
+      font-family: "Playfair Display", Georgia, serif;
+    }
+   .testimony-wrap {
+      padding: 0 3em;
+      width: 100%;
+      float: left; 
+    }
+   .figure-img  {
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     position: relative; 
+   }
+
+  .each-fade {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+
